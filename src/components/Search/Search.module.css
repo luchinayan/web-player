@@ -1,0 +1,75 @@
+.inputContainer {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+}
+
+.input {
+    width: 50%;
+    height: 56px;
+    font-size: 25px;
+    color: white;
+    margin: 200px 0 0 0;
+    padding: 0 20px;
+    border: 1px solid white;
+    background: #8282823d;
+    border-radius: 4px 0px 0px 4px;
+    transition: .3s ease-in;
+}
+
+
+.searchBtn {
+    display: flex;
+    margin: 200px 0 0 0;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    gap: 10px;
+    color: rgba(171, 255, 206, 1);
+    font-size: 20px;
+    width: 151px;
+    height: 58px;
+    background: #09BB53;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    border: none;
+    transition: .3s ease-in;
+
+}
+
+.input:focus {
+    background: white;
+    color: black;
+    margin: 100px 0 0 0;
+
+}
+
+.input:focus + .close + .searchBtn {
+    margin: 100px 0 0 0;
+}
+
+.input:focus  + .searchBtn {
+    margin: 100px 0 0 0;
+}
+
+
+.close {
+    position: absolute;
+    top: 75%;
+    left: 66%;
+    font-size: 25px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.input:not(:focus) + .close {
+    top: 85%;
+    color: white;
+}
+
+

@@ -1,0 +1,25 @@
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 22px;
+}
+.menuItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0 5px;
+    transition: .8s;
+    height: 56px;
+    text-decoration: none;
+    color: white;
+}
+.menuItem:hover{
+    background-color: rgb(143,143,144);
+    height: 56px;
+}
+.menuItem >p{
+    margin: 0 5px;
+}

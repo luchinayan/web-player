@@ -1,0 +1,21 @@
+.moviesContainer{
+}
+.spotlight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin: 100px 0 90px 0;
+}
+.movies{
+    display: flex;
+    width: 100%
+}
+.moviesSwiperSlide{
+    max-width: 390px;
+    min-width: 300px;
+    min-height: 400px;
+}
+.moviesSwiperSlide:last-child{
+    margin-right: 50px;
+}

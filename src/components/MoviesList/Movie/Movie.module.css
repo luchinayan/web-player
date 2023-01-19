@@ -1,0 +1,89 @@
+.movieContainer {
+    width: 360px;
+    height: 200px;
+    margin: 0 50px;
+    position: relative;
+}
+
+.details {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid rgba(171, 255, 206, 1);
+    padding: 15px 40px;
+    z-index: 1;
+    color: rgba(171, 255, 206, 1);
+    animation: fadeIn .5s;
+
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.poster {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 4px;
+    filter: brightness(45%);
+    animation: fadeIn .5s;
+}
+
+.rateContainer {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    margin: 10px;
+    animation: fadeIn .5s;
+
+}
+
+.rate {
+    background: rgba(9, 187, 83, 1);
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    margin: 0 10px;
+}
+
+.isNew {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    background: rgba(222, 139, 15, 1);
+}
+
+.infoContainer > * {
+    margin: 4px 0;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.info {
+    color: rgba(166, 166, 166, 1);
+    font-size: 20px;
+}
+
+.genre {
+    font-size: 20px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

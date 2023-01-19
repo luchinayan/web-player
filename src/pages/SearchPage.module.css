@@ -1,0 +1,14 @@
+
+.searchPageContainer{
+    position: relative;
+
+}
+.movies{
+    color: white;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+}

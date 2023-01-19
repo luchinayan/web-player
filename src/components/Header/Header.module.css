@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 24px;
+    font-style: normal;
+    padding: 0px 72px;
+    height: 56px;
+    background: rgb(81,82,84);
+    color: white;
+}
+
+.info{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+.searchLogo, .profileLogo{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98,99,102);
+    height: 56px;
+    width: 56px;
+    transition: .8s;
+}
+.searchLogo:hover, .profileLogo:hover{
+    background-color: rgb(143,143,144);
+}
